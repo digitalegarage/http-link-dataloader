@@ -24,7 +24,7 @@ export class BatchedGraphQLClient {
     const maxBatchSize =
       options && typeof options.maxBatchSize !== 'undefined'
         ? options.maxBatchSize
-        : null
+        : undefined
 
     if (options && typeof options.maxBatchSize !== 'undefined') {
       delete options.maxBatchSize

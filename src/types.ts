@@ -37,4 +37,5 @@ export interface GraphQLRequestContext {
 
 export interface ClientOptions {
   cacheResults?: boolean
+  maxBatchSize?: number
 }
