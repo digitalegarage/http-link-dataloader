@@ -15,6 +15,7 @@ export interface Options {
 
 export type HttpOptions = Options & {
   uri: string
+  maxBatchSize?: number
 }
 
 export interface GraphQLError {
